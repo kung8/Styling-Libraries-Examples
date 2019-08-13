@@ -1,3 +1,4 @@
+#Install
 In order to use material-ui, you will need to install the following packages:
     (1) npm install @material-ui/core
         Main package
@@ -13,14 +14,14 @@ In order to use material-ui, you will need to install the following packages:
         objects - concatenates keys (truthy values only)
         arrays - concatenates truthy values only (no numbers)
 
-TEMPLATES:
+#TEMPLATES:
     Here are some templates that you can use to model your app: 
     <!-- https://material-ui.com/getting-started/page-layout-examples/ -->
 
-CORE: 
+#CORE: 
     Core elements
 
-ICONS:
+#ICONS:
     import specific SVG Material icons from Material UI/Material.io:
         you must use capital letters when you import them both in the path and the variable name
         <!-- https://material.io/tools/icons/?style=baseline -->
@@ -30,18 +31,18 @@ ICONS:
         
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-COLORS: 
+#COLORS: 
     <!-- https://material-ui.com/customization/color/ -->
     hue[shade] 
     red[100] <!--50,100 to 900, shade -->
     purple['A200'] <!--A100, A200, A400, A700-->
     purple.A200 <!---->
 
-TYPOGRAPHY:
+#TYPOGRAPHY:
     <!-- https://material-ui.com/customization/typography/ -->
     fontFamily, fontSize, htmlFontSize,
 
-BREAKPOINTS: For media query
+#BREAKPOINTS: For media query
     <!-- https://material-ui.com/customization/breakpoints/#api -->
     Breakpoint values
     0px ------ xs ---- 599px
@@ -55,5 +56,5 @@ BREAKPOINTS: For media query
     [theme.breakpoints.between('sm','md')] => when width greater first argument and less than second argument
     [theme.breakpoints.only('md')] => when width greater than and include screen 
 
-SPACING: 
+#SPACING: 
     Spacing default is 8px. But you can define spacing. 

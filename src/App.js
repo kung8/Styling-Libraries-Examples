@@ -6,7 +6,8 @@ import { red } from '@material-ui/core/colors';
 import Icon from '@material-ui/core/Icon';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
-import Example from './StyledComp'
+import StyledComp from './StyledComp'
+import CSSinJS from './CSSinJSExample'
 //used for themes for the app (colors, fontFamily,fontSize, htmlFontSize)
 const theme = createMuiTheme({
   // spacing:4,
@@ -71,6 +72,8 @@ function App() {
 
   return (
     <div>
+      <CSSinJS/>
+      
       <Typography component="div" variant="body1">
         <Box 
           bgcolor='primary.main' color='primary.contrastText'
@@ -85,7 +88,9 @@ function App() {
       </Typography>
       <Favorite style={{ color: primary.light }}/>
       <Icon className={`${classes.iconHover} fa fa-plus-circle`} />
-      <Example/>
+      
+      <StyledComp/>
+      
     </div>
   );
 }
